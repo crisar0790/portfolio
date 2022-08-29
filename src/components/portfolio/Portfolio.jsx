@@ -3,6 +3,7 @@ import './Portfolio.css';
 import IMG1 from '../../assets/luxu2.png';
 import IMG2 from '../../assets/poke2.png';
 import IMG3 from '../../assets/book1.png';
+import IMG4 from '../../assets/Mana.png';
 
 const Portfolio = () => {
   return (
@@ -10,6 +11,16 @@ const Portfolio = () => {
       <h5>Mis trabajos recientes</h5>
       <h2>Portafolio</h2>
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="Manager" />
+          </div>
+          <h3>MANAGER</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/crisar0790/CHALLENGE-FULL-STACK" className='btn' target='_blanck'>GitHub</a>
+            <a href="https://management-iota.vercel.app/" className='btn btn-primary' target='_blanck'>Ir</a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Luxurent" />
